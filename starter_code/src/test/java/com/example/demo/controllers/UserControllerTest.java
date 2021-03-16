@@ -1,7 +1,6 @@
-package com.example.demo.controller;
+package com.example.demo.controllers;
 
 import com.example.demo.TestUtils;
-import com.example.demo.controllers.UserController;
 import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
@@ -86,7 +85,6 @@ public class UserControllerTest {
         assertNotNull(userResponseEntity);
         assertEquals(200, userResponseEntity.getStatusCodeValue());
 
-        User userFound = userResponseEntity.getBody();
         assertNotNull(user);
         assertEquals("Test", user.getUsername());
         assertEquals("thisishashed", user.getPassword());
