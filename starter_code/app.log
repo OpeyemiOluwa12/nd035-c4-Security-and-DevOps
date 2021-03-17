@@ -1,0 +1,78 @@
+2021-03-17 07:21:27,627 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on LawPavilionsMBP with PID 6105 (/Users/lawpavilion/Documents/Opeyemi/udacity/Java-Development/nd035-c4-Security-and-DevOps/starter_code/target/classes started by lawpavilion in /Users/lawpavilion/Documents/Opeyemi/udacity/Java-Development/nd035-c4-Security-and-DevOps/starter_code)
+2021-03-17 07:21:27,630 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-17 07:21:27,631 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-03-17 07:21:28,770 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-03-17 07:21:28,770 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-17 07:21:28,862 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-03-17 07:21:29,057 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-17 07:21:29,146 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-17 07:21:29,185 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-17 07:21:29,308 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-17 07:21:29,309 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-03-17 07:21:29,406 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-17 07:21:29,501 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-17 07:21:30,352 DEBUG com.example.demo.security.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2021-03-17 07:21:30,838 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 3.467 seconds (JVM running for 3.888)
+2021-03-17 07:21:54,367 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-1 - Shutdown initiated...
+2021-03-17 07:21:54,368 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-1 - Shutdown completed.
+2021-03-17 07:21:59,585 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on LawPavilionsMBP with PID 6129 (/Users/lawpavilion/Documents/Opeyemi/udacity/Java-Development/nd035-c4-Security-and-DevOps/starter_code/target/classes started by lawpavilion in /Users/lawpavilion/Documents/Opeyemi/udacity/Java-Development/nd035-c4-Security-and-DevOps/starter_code)
+2021-03-17 07:21:59,587 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-17 07:21:59,587 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2021-03-17 07:22:00,771 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-03-17 07:22:00,772 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-17 07:22:00,888 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-03-17 07:22:01,051 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-03-17 07:22:01,142 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-03-17 07:22:01,192 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-17 07:22:01,312 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-17 07:22:01,314 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2021-03-17 07:22:01,412 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-17 07:22:01,509 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-17 07:22:02,491 DEBUG com.example.demo.security.JWTAuthenticationVerificationFilter [main] Filter 'JWTAuthenticationVerificationFilter' configured for use
+2021-03-17 07:22:03,044 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 3.732 seconds (JVM running for 4.15)
+2021-03-17 07:22:31,786 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-17 07:22:31,916 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] INFO: username set with OpeyemiOluwa
+2021-03-17 07:22:32,079 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] SUCCESS: OpeyemiOluwa successfully created
+2021-03-17 07:22:43,530 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-3] INFO: username set with AdeoluwaYimika
+2021-03-17 07:22:43,634 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-3] SUCCESS: AdeoluwaYimika successfully created
+2021-03-17 07:22:56,258 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] INFO: username set with EniolaIpoola
+2021-03-17 07:22:56,260 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-4] ERROR: Either length is less than 7 or pass and conf pass do not match. Unable to create EniolaIpoola
+2021-03-17 07:23:05,880 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-6] INFO: username set with EniolaIpoola
+2021-03-17 07:23:05,882 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-6] ERROR: Either length is less than 7 or pass and conf pass do not match. Unable to create EniolaIpoola
+2021-03-17 07:23:32,546 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] INFO: username set with EniolaIpoola
+2021-03-17 07:23:32,651 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-8] SUCCESS: EniolaIpoola successfully created
+2021-03-17 07:23:51,853 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-9] INFO: username set with SegunOyesanya
+2021-03-17 07:23:51,970 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-9] SUCCESS: SegunOyesanya successfully created
+2021-03-17 07:23:58,117 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-10] HHH000397: Using ASTQueryTranslatorFactory
+2021-03-17 07:23:58,251 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-10] INFO: User is OpeyemiOluwa
+2021-03-17 07:24:03,386 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-1] NOT_FOUND: User with username 'Opeyemi' not found
+2021-03-17 07:24:14,319 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] INFO: User is SegunOyesanya
+2021-03-17 07:24:21,881 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-3] INFO: User is EniolaIpoola
+2021-03-17 07:24:27,053 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] INFO: User is AdeoluwaYimika
+2021-03-17 07:24:43,782 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-5] SUCCESS: Item from user OpeyemiOluwa successfully added to cart
+2021-03-17 07:24:53,623 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-6] SUCCESS: Item from user OpeyemiOluwa successfully added to cart
+2021-03-17 07:25:08,435 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-7] SUCCESS: Item from user OpeyemiOluwa successfully added to cart
+2021-03-17 07:25:17,428 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-8] SUCCESS: Item from user OpeyemiOluwa successfully removed from cart
+2021-03-17 07:25:39,445 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-9] SUCCESS: Item from user OpeyemiOluwa successfully removed from cart
+2021-03-17 07:25:54,210 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-10] SUCCESS: order from OpeyemiOluwa successfully submitted
+2021-03-17 07:26:07,243 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-1] SUCCESS: Item from user AdeoluwaYimika successfully added to cart
+2021-03-17 07:26:16,703 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-2] SUCCESS: Item from user EniolaIpoola successfully added to cart
+2021-03-17 07:26:30,017 ERROR com.example.demo.controllers.CartController [http-nio-8080-exec-3] NOT_FOUND: SegunOyesanye not found
+2021-03-17 07:26:36,101 ERROR com.example.demo.controllers.CartController [http-nio-8080-exec-4] NOT_FOUND: SegunOyesanye not found
+2021-03-17 07:26:42,294 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-5] SUCCESS: Item from user SegunOyesanya successfully added to cart
+2021-03-17 07:26:52,221 INFO com.example.demo.controllers.CartController [http-nio-8080-exec-6] SUCCESS: Item from user SegunOyesanya successfully added to cart
+2021-03-17 07:26:56,223 ERROR com.example.demo.controllers.CartController [http-nio-8080-exec-7] NOT_FOUND: Item with id 7 not available
+2021-03-17 07:27:00,410 ERROR com.example.demo.controllers.CartController [http-nio-8080-exec-8] NOT_FOUND: Item with id 9 not available
+2021-03-17 07:27:09,140 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-9] SUCCESS: order from AdeoluwaYimika successfully submitted
+2021-03-17 07:27:15,770 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-10] SUCCESS: order from EniolaIpoola successfully submitted
+2021-03-17 07:27:20,865 ERROR com.example.demo.controllers.OrderController [http-nio-8080-exec-1] NOT_FOUND: User with username 'Segun' not found
+2021-03-17 07:27:28,076 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-2] SUCCESS: order from SegunOyesanya successfully submitted
+2021-03-17 07:27:32,899 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-3] SUCCESS: History of user OpeyemiOluwa order gotten successfully
+2021-03-17 07:27:46,238 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-4] SUCCESS: History of user AdeoluwaYimika order gotten successfully
+2021-03-17 07:27:54,846 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-5] SUCCESS: History of user SegunOyesanya order gotten successfully
+2021-03-17 07:28:00,098 ERROR com.example.demo.controllers.OrderController [http-nio-8080-exec-6] NOT_FOUND: User with username 'Eniola' not found
+2021-03-17 07:28:04,875 INFO com.example.demo.controllers.OrderController [http-nio-8080-exec-7] SUCCESS: History of user EniolaIpoola order gotten successfully
